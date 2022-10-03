@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS_Index.css">
+    <title>Assignment 2</title>
+</head>
+
+<body>
+    <nav>
+        <div class="crep">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Inventory">Inventory</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div class="oppo"><section>
+        <div class="Rexus">
+            <img src="logo.jpg" width="140px" alt="" class="rexus">
+        </div>
+    </section>
+
+    <section>
+        <div class="Apple">
+            <div class="apple">
+                <h2 class="div" id="ini-saya">Nama Anda</h2>
+                <div class="Div">
+                    <p class="div" id="text-role">Front-End Web Development </p>
+                    <button class="div1" id="edit">Edit</button>
+                    <button class="div2">Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <br>
+    <div class="data">
+        <table>
+            <tr>
+                <td>Availablity</td>
+                <td style="padding-left: 80px;">:</td>
+                <td id="text-availability">Full Time</td>
+            </tr>
+            <tr>
+                <td>Usia</td>
+                <td style="padding-left: 80px;">:</td>
+                <td id="text-usia">17</td>
+            </tr>
+            <tr>
+                <td>Lokasi</td>
+                <td style="padding-left: 80px;">:</td>
+                <td id="text-lokasi">Jakarta, Indonesia</td>
+            </tr>
+            <tr>
+                <td>Pengalaman</td>
+                <td style="padding-left: 80px;">:</td>
+                <td id="text-pengalaman">2</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td style="padding-left: 80px;">:</td>
+                <td id="text-email">Developer@gmail.com</td>
+            </tr>
+        </table>
+    </div></div>
+        
+   
+    <br><br>
+    <form id="nyk"  onsubmit="handleSubmit(event)">
+        <label for="nama" >Nama</label>
+        <input id="input-nama" type="text" name="nama" value="">
+    
+        <br><label for="role">Role</label> <br/>
+        <input id="input-role" type="text" name="Role"  value="" >
+    
+        <br><label for="availability">Availability</label> <br/>
+        <input id="input-availability" type="text" name="Availability" value="" >
+    
+        <br><label for="age">Usia</label> <br/>
+        <input id="input-usia" type="text" name="Age" value="" >
+    
+        <br><label for="lokasi">Lokasi</label> <br/>
+        <input id="input-lokasi" type="text" name="Lokasi" value="" >
+    
+        <br><label for="pengalaman">Pengalaman</label> <br/>
+        <input id="input-pengalaman" type="number" name="pengalaman" value="" >
+    
+        <br><label for="email">Email</label> <br/>
+        <input id="input-email" type="email" name="Email" value="" >
+    
+        <br><input class="submit" id="btn-submit" type="submit" value="SUBMIT"><br/>
+      </form>
+
+      <script src="js_index.js"></script>
+
+</body>
+</html>
